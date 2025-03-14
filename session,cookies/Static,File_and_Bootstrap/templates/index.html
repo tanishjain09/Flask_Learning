@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Index Page{% endblock %}
+
+{% block content %}
+  <h1>Hello world</h1>
+
+  <a href="#" class="btn btn-danger">Button text</a>
+  <p class="special">Hello</p>
+
+  <script src="{{ url_for('static', filename='js/hello.js') }}"></script>
+{% endblock %}

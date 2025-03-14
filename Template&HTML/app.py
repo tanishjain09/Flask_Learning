@@ -29,6 +29,7 @@ def repeat(s,times=2):
 
 @app.template_filter('alternate_case')
 def alternate_case(s):
+
     return ''.join(c.upper() if i%2==0 else c.lower() for i,c in enumerate(s))
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
