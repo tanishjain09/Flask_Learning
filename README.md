@@ -38,15 +38,5 @@ Welcome to the **Flask Learning Repository**! This repository contains various t
 
 ---
 
-###Folder Structure
-flask-learning/
-│── .idea/                   # IDE settings
-│── Forms,POST,Files/        # Handling Forms and File Uploads
-│── Static,File_and_Bootstrap/ # Static Files and Bootstrap
-│── Template&HTML/           # HTML Templates and Jinja2
-│── dbapplication_/          # Database handling with SQLAlchemy
-│── firstapp/                # First Flask application
-│── session,cookies/         # Session and Cookie management
-│── authentication/          # User authentication (Login, Logout, Register)
-│── README.md                # Project documentation
+
 
